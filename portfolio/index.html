@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="sidebar">
+        <header>
+            <h1>Arjun's Portfolio</h1>
+            <p>Web Developer</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#home" onclick="smoothScroll('home')">Home</a></li>
+                <li><a href="#about" onclick="smoothScroll('about')">About</a></li>
+                <li><a href="#projects" onclick="smoothScroll('project')">Projects</a></li>
+                <li><a href="#skills" onclick="smoothScroll('skills')">Skills</a></li>
+                <li><a href="#contact" onclick="smoothScroll('contact')">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </div>
+    <div class="content">
+        <section id="home">
+            <h2>Arjun Kashid</h2>
+            <p>Welcome to my portfolio.This is a showcase of my work and skills.</p>
+            <div class="scroller">
+                <span>
+                  Crafting responsive websites that adapt and inspire.<br/>
+                </span>
+            </div>
+            <div id="box"></div>
+        </section>
+        
+
+         <section id="about">
+            <h2 id="line">About Me</h2>
+            <div class="about-me">
+                <img src="image.jpeg" alt="">
+                <p>Hello! I'm Arjun Kashid, a passionate web developer with a knack for crafting dynamic and engaging websites. With a strong foundation in HTML, CSS, and <br>
+                I transform ideas into interactive, user-friendly digital experiences. My journey into web development started 2 years ago, and since then, I've been honing my skills and expanding my knowledge in various web technologies. <br>
+                I'm constantly exploring new tools and technologies to stay ahead in this ever-evolving field.In addition to web development, I enjoy music, travelling and When I'm not coding, you can find me reading a good book.
+            </div>
+            <button class="button" type="button" onclick="window.location.href='path/to/your_resume.pdf'">
+                <span class="button__text">Download</span>
+                <span class="button__icon">
+                    <i class="fa-solid fa-download" style="color: white;"></i>
+                </span>
+            </button>
+        </section>
+
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <h3>Landing Page</h3>
+                    <p>Simple Landing Page using HTTML and CSS</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Quiz App</h3>
+                    <p>Multi Question and Answer Quiz App using JS</p>
+                    <a href="https://github.com/Kashid05/QUizApp" class="project-link">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Joke Generator</h3>
+                    <p>Generate Jokes in one click using Js (API)</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Project 4</h3>
+                    <p>Description of Project 4.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/480px-HTML5_logo_and_wordmark.svg.png" alt="">
+                    <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-official.svg" alt="">
+                    <img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-shield-logo-icon-2.png" alt="">
+                    <img src="https://raw.githubusercontent.com/stephencorwin/stephencorwin/master/resources/react-logo.png" alt="">
+                    <img src="https://www.svgrepo.com/show/303360/nodejs-logo.svg" alt="">
+                    <img src="https://zozothemes.com/wp-content/uploads/2023/12/express-js-framework.jpg" alt="">
+                </div>
+        </section>
+        
+
+        <footer id="contact">
+            <div class="footer-container">
+              <div class="footer-contact">
+                <p><i class="fas fa-envelope"></i> <a href="mailto:amkashid05@gmail.com">amkashid05@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i> <a href="tel:+1234567890">7573017978</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> Vapi, India</p>
+              </div>
+              <div class="footer-social">
+                <h3>Follow Me</h3>
+                <div class="social-links">
+                  <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <p>&copy; 2024 Arjun Kashid. All Rights Reserved.</p>
+            </div>
+          </footer>
+          
+    </div>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
