@@ -12,7 +12,7 @@ function smoothScroll(targetId) {
 
 function downloadResume() {
     // Replace 'path/to/your_resume.pdf' with the actual path to your resume PDF file
-    window.location.href = 'path/to/your_resume.pdf';
+    window.location.href = 'Arjun_Resume.pdf';
 }
 
 
